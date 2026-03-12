@@ -92,5 +92,5 @@ if __name__ == "__main__":
     output_model = "../data/tokenizer_math.json"
     
     
-    train_industrial_math_tokenizer(input_directory, output_model, vocab_size=10000)
+    train_industrial_math_tokenizer(input_directory, output_model, vocab_size=30000)
     
