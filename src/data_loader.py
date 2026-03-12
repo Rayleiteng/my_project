@@ -73,10 +73,3 @@ def get_math_dataloader(file_path, tokenizer_path, max_length=128, batch_size=8)
     )
     
     return dataset, dataloader
-
-# 这样如果你还要单独测试 data_loader.py，可以保留这段：
-if __name__ == "__main__":
-    test_ds, test_dl = get_math_dataloader(
-        "../data/processed_latex/train_data_100_all.mmd", 
-        "../data/tokenizer_math.json"
-    )
